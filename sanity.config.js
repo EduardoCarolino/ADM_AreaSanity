@@ -27,3 +27,10 @@ export default {
         { name: 'photo', title: 'Foto', type: 'image' }
     ]
 };
+
+async function fetchComments() {
+    const comments = await client.fetch(`*[_type == "comment"]{name, comment, "photoUrl": photo.asset->url}`);
+    console.log(comments);
+}
+
+fetchComments();
