@@ -15,7 +15,7 @@ export const produtoType = defineType({
     }),
     defineField({
         name: 'valor',
-        type: 'number',
+        type: 'string',
     }),
     defineField({
         name: 'image1',

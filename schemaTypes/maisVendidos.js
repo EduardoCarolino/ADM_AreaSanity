@@ -11,7 +11,7 @@ export const maisVendidosType = defineType({
     }),
     defineField({
       name: 'Foto',
-      type: 'string',
+      type: 'image',
     }),
     defineField({
       name: 'NivelEstrela',
