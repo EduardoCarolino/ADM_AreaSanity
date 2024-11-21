@@ -1,4 +1,5 @@
-export default {
+import {defineField, defineType} from 'sanity'
+    export default {
     name: 'comment',
     title: 'Comentários',
     type: 'document',
