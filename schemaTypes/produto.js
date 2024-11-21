@@ -32,6 +32,10 @@ export const produtoType = defineType({
     defineField({
        name: 'image4',
         type: 'image',
-     }),
+    }),
+    defineField({
+      name: 'NivelEstrela',
+      type: 'string',
+    })
   ],
 })
