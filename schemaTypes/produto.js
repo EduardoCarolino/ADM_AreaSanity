@@ -36,6 +36,6 @@ export const produtoType = defineType({
     defineField({
       name: 'NivelEstrela',
       type: 'string',
-    })
+  })
   ],
 })

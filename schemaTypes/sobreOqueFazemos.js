@@ -1,4 +1,3 @@
-js do schematype 
 import { defineField, defineType } from 'sanity'
 
 export const inicioType = defineType({
@@ -6,21 +5,21 @@ export const inicioType = defineType({
     title: 'O INICIO',
     type: 'document',
     fields: [
-        defineField({
-            name: 'titulo',
-            type: 'string',
-        }),
-        defineField({
-            name: 'texto',
-            type: 'string',
-        }),
-        defineField({
-            name: 'marketing',
-            type: 'string',
-        }),
-        defineField({
-            name: 'texto2',
-            type: 'string',
-        }),
-    ],
-})
+      defineField({
+        name: 'titulo',
+        type: 'string',
+      }),
+      defineField({
+          name: 'texto',
+          type: 'string',
+      }),
+      defineField({
+          name: 'marketing',
+          type: 'string',
+      }),
+      defineField({
+          name: 'texto2',
+          type: 'string',
+      })
+    ],
+  })

@@ -4,8 +4,8 @@ import {maisVendidosType} from './maisVendidos'
 
 import {avaliacoesType} from './avaliacoes'
 
-import {sobreOqueFazemosType} from './sobreOqueFazemos'
+import {inicioType} from './sobreOqueFazemos'
 
 import {fraseType} from './frase'
 
-export const schemaTypes = [produtoType, maisVendidosType, avaliacoesType, sobreOqueFazemosType, fraseType];
+export const schemaTypes = [produtoType, maisVendidosType, avaliacoesType, inicioType, fraseType];
