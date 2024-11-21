@@ -2,6 +2,7 @@ import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
+import {sanityClient} from '@sanity/client';
 
 export default defineConfig({
   name: 'default',
@@ -34,3 +35,12 @@ async function fetchComments() {
 }
 
 fetchComments();
+
+import sanityClient from '@sanity/client';
+
+export const client = sanityClient({
+  projectId: 'seuProjectId', // Substitua pelo ID do seu projeto Sanity
+  dataset: 'production',    // Dataset que você está usando
+  useCdn: true,             // Use CDN para melhorar a performance
+  apiVersion: '2023-01-01', // Ajuste conforme necessário
+});
